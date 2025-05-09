@@ -1,0 +1,41 @@
+h5{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+h1{
+    color: green;
+    background-color: blueviolet;
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow: 33px 8px 13px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 33px 8px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 33px 8px 13px 0px rgba(0,0,0,0.75);
+border: 20px solid #d40cf2;
+border-radius: 200px 200px 0px 0px;
+-webkit-border-radius: 200px 200px 0px 0px;
+-moz-border-radius: 200px 200px 0px 0px;
+border: 19px solid #9709eb;
+position: relative;
+text-align: center;
+}
+.destacados{
+    color: red;
+    font-style: italic;
+}
+
+#caja2{
+    width: 200px;
+    height: 200px;
+    background: pink;
+}
