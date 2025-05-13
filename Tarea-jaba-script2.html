@@ -1,0 +1,33 @@
+!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Encontrar el número mayor</h1>
+  <p id="resultado">El número mayor es: </p>
+
+  <script>
+    // Array de números
+    let numeros = [12, 45, 67, 2, 89, 33];
+
+    // Inicializar el mayor con el primer número
+    let mayor = numeros[0];
+
+    // Recorrer el array para encontrar el mayor
+    for (let i = 1; i < numeros.length; i++) {
+      if (numeros[i] > mayor) {
+        mayor = numeros[i];
+      }
+    }
+
+    // Mostrar el resultado en el HTML
+    document.getElementById("resultado").textContent += mayor;
+  </script>
+  
+   
+    
+</body>
+</html>

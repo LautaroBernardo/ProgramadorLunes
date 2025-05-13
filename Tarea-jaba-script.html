@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Medio de Transporte</title>
+ 
+    
+  
+</head>
+<body>
+
+  <h1>Calcula el Medio de transporte</h1>
+
+  <input type="number" id="distancia" placeholder="Distancia en metros">
+  <br>
+  <button onclick="calcularTransporte()">Calcular</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function medioDeTransporte(distancia) {
+      if (distancia < 0) {
+        return "Distancia no válida";
+      } else if (distancia <= 1000) {
+        return "pie";
+      } else if (distancia <= 10000) {
+        return "bicicleta";
+      } else if (distancia <= 30000) {
+        return "colectivo";
+      } else if (distancia <= 100000) {
+        return "auto";
+      } else {
+        return "avión";
+      }
+    }
+
+    function calcularTransporte() {
+      const distanciaInput = document.getElementById("distancia");
+      const resultadoDiv = document.getElementById("resultado");
+
+      const distancia = parseFloat(distanciaInput.value);
+
+      if (isNaN(distancia)) {
+        resultadoDiv.textContent = "Por favor, ingrese una distancia válida.";
+        return;
+      }
+
+      const medio = medioDeTransporte(distancia);
+      resultadoDiv.textContent = "El medio de transporte apropiado es: " + medio;
+    }
+  </script>
+
+</body>
+</html>
+<link rel="stylesheet" href="Tarea-jaba-script.css">
