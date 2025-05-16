@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Jaba-scrit-avanzado-ej2.css">
+    <h2>Contador de caracteres</h2>
+  <textarea id="miTextarea" oninput="actualizarContador()"></textarea>
+  <div class="contador">Caracteres: <span id="contador">0</span></div>
+
+  <script>
+    function actualizarContador() {
+      const textarea = document.getElementById('miTextarea');
+      const contador = document.getElementById('contador');
+      contador.textContent = textarea.value.length;
+    }
+  </script>
+    
+</body>
+</html>
