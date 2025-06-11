@@ -23,10 +23,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Locales</a>
+          <a class="nav-link active" aria-current="page" href="#novedades">Novedades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contactanos</a>
+          <a class="nav-link" href="#nosotros">Nosotros</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <div class="row my-3">
-    <div id="novedades" class="col=md=5 offset=md=2 py=3">
+    <div id="novedades" class="col-md-5 offset-md-2 py-3">
       <h2>Novedades</h2>
       <ul class="lista-novedades">
         <li><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="exampleModal"><img
@@ -84,143 +84,272 @@
 
     </div>
 
-  </div>
+    <!-- </div> -->
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Cervezas disponibles</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Quilmes 3000$, Corona 4000$, Heineken 3500$
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar cambios</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabe2" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabe2">Cervezas disponibles</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Lager 4500$, Ale 6000$, Lambic 5000$
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar cambios</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabe3" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabe3">Entradas y picadas disponibles</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Picada de mar 15000$, Picada completa 12000$, Rabas 10000$
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar cambios</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabe4" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabe4">Tragos disponibles</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Caipirinha 6000$, Gin tonic 8200$, Fernet 6500$, Margarita 7800$, Mojito 4000$
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar cambios</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <!-- Carrusel de texto a la derecha -->
-  <div class="col-md-4">
-    <div class="border rounded p-3 bg-light">
-      <h4 class="text-center mb-3">Testimonios</h4>
-      <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicadores -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Testimonio 1"></button>
-          <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1"
-            aria-label="Testimonio 2"></button>
-          <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2"
-            aria-label="Testimonio 3"></button>
-        </div>
-
-        <!-- Contenido del carrusel -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <blockquote class="blockquote text-center">
-              <p class="mb-0">"La mejor birra del mundo!!"</p>
-              <footer class="blockquote-footer">Francisco, Monte Grande</footer>
-            </blockquote>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cervezas disponibles</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="carousel-item">
-            <blockquote class="blockquote text-center">
-              <p class="mb-0">"Ambiente increíble y excelente atención."</p>
-              <footer class="blockquote-footer">Flavia, Devoto</footer>
-            </blockquote>
+          <div class="modal-body">
+            Quilmes 3000$, Corona 4000$, Heineken 3500$
           </div>
-          <div class="carousel-item">
-            <blockquote class="blockquote text-center">
-              <p class="mb-0">"Perfecto para pasar una noche con amigos."</p>
-              <footer class="blockquote-footer">Eric, Mataderos</footer>
-            </blockquote>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
           </div>
         </div>
+      </div>
+    </div>
 
-        <!-- Controles -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+
+    <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabe2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabe2">Cervezas disponibles</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lager 4500$, Ale 6000$, Lambic 5000$
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabe3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabe3">Entradas y picadas disponibles</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Picada de mar 15000$, Picada completa 12000$, Rabas 10000$
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabe4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabe4">Tragos disponibles</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Caipirinha 6000$, Gin tonic 8200$, Fernet 6500$, Margarita 7800$, Mojito 4000$
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrusel de texto a la derecha -->
+    <div class="col-md-3 my-3">
+      <div class="rounded py-5 testimonios">
+        <h2 class="text-center">Testimonios</h2>
+        <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicadores -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Testimonio 1"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1"
+              aria-label="Testimonio 2"></button>
+            <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2"
+              aria-label="Testimonio 3"></button>
+          </div>
+
+          <!-- Contenido del carrusel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonio">
+                <h5>La mejor birra del mundo!!</h5>
+                <p>Francisco, Monte grande</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>"Ambiente increíble y excelente atención.</h5>
+                <p>Lautaro, San antonio de Padua</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>"Perfecto para pasar una noche con amigos.</h5>
+                <p>Carlos, Ramos mejia</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
+
+  <div id="historia" class="row align-items-center py-4">
+    <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+      <img src="img/como-montar-una-cerveceria-1.jpg" alt="historia 1" class="img-fluid">
+    </div>
+    <div class="col-lg-2 col-md-3 d-none d-sm-block">
+      <img src="img/cerveza-artesanal-autentica.jpg" alt="historia 2" class="img-fluid">
+    </div>
+    <div class="col-12 d-sm-none">
+      <img src="img/Local-AMS23-scaled.jpg" alt="historia 3" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+      <h2>Historia</h2>
+      <p>Todo comenzó con una pasión compartida por la buena cerveza y los momentos auténticos. En el corazón de San
+        Antonio de Padua, un grupo de amigos decidió convertir su amor por la cultura cervecera en algo más grande: una
+        cervecería donde cada pinta cuenta una historia.
+        Así, en 1960, nació Cerveceria Duppon, un espacio donde la tradición artesanal se mezcla con la creatividad.
+        Nuestro objetivo es simple: crear cervezas únicas, hechas con dedicación, que inviten a reunirse, brindar y
+        disfrutar.
+        Desde nuestras primeras cocciones en ollas caseras hasta el lanzamiento de nuestras líneas propias, cada paso ha
+        sido guiado por la calidad, el sabor y el deseo de compartir algo auténtico con nuestra comunidad.</p>
+
+
+
+
+    </div>
+  </div>
+  <div id="nosotros" class="row align-items-stretch my-3 staff py-4">
+    <div class="col-lg-8 offset-lg-2">
+
+      <h2>Nosotros</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Carlos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Tamburin</h5>
+              <p class="card-text">Es el alma y motor del lugar. Se encarga de la administración general, la toma de
+                decisiones importantes y de mantener viva la esencia de la cervecería. Supervisa el funcionamiento
+                diario,
+                gestiona proveedores, controla los costos y busca siempre mejorar la experiencia tanto para los clientes
+                como para el equipo.</p>
+              <p class="card-text"><small class="text-body-secondary">Dueño</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Claudia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Claudia Ramos</h5>
+              <p class="card-text">Es el primer contacto con el cliente y quien da vida al salón. Se encarga de tomar
+                pedidos, recomendar cervezas y platos, servir con buena onda y asegurarse de que cada visitante se
+                sienta
+                bien atendido. También mantiene el orden y la limpieza de las mesas, y colabora con el resto del equipo
+                para
+                que todo funcione de forma fluida.</p>
+              <p class="card-text"><small class="text-body-secondary">Mesera 1</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Mauro y Jorge.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mauro y Jorge</h5>
+              <p class="card-text">Son los responsables de preparar los platos que acompañan a la cerveza con sabor y
+                calidad. Cocinan según el menú establecido, controlan los tiempos de salida, cuidan la presentación de
+                los
+                platos y garantizan las normas de higiene. Trabajan en equipo y bajo presión, siendo clave para que la
+                experiencia gastronómica sea excelente.</p>
+              <p class="card-text"><small class="text-body-secondary">Encargados de cocina</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Natalia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Natalia Perez</h5>
+              <p class="card-text">Con energía y simpatía, se encarga de brindar una atención cálida y cercana a cada
+                mesa.
+                Además de tomar pedidos y servir con eficiencia, está siempre atenta a los detalles: una sonrisa a
+                tiempo,
+                una recomendación acertada o una charla amable hacen que los clientes quieran volver. También colabora
+                con
+                sus compañeras para mantener el ritmo del salón y que todo funcione en armonía.</p>
+              <p class="card-text"><small class="text-body-secondary">Mesera 2</small></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="conocenos" class="row py-4">
+      <div class="col-md-4 offset-md-2">
+        <h2>Visitanos</h2>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.5956571663013!2d-58.70415876984053!3d-34.66733923447664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf886534fc51%3A0x2bb6edea150373af!2sSamaa%20Beer%20%26%20Burger!5e0!3m2!1ses!2sar!4v1749680620725!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-4 mt-4 mt-sm-0">
+<h2>Contactanos</h2>
+    <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Apellido</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Email</label>
+    <input type="text" class="form-control" id="inputAddress">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="inputAddress2">
+  </div>
+  <div class="col-12">
+    <label for="Mensaje" class="form-label">Mensaje</label>
+    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
 </div>
 
 
-</div>
-<footer>
-  <p class="text-center">Diseñado por: Lautaro Bernardo UTN</p>
-</footer>
+  </div>
+  <footer>
+    <p class="text-center">Diseñado por: Lautaro Bernardo UTN</p>
+  </footer>
 
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
 
-</body>
+  </body>
 
 </html>
